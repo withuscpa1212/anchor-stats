@@ -1,9 +1,9 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { HiddenEntryButtonUI } from '@/components/ui-only/HiddenEntryButtonUI';
-import { PartnerLoginUI } from '@/components/ui-only/PartnerLoginUI';
-import { PartnerDashboardUI } from '@/components/ui-only/PartnerDashboardUI';
+import { HiddenEntryButtonUI } from '@/components/ui-only/hiddenEntryButtonUI';
+import { PartnerLoginUI } from '@/components/ui-only/partnerLoginUI';
+import { PartnerDashboardUI } from '@/components/ui-only/partnerDashboardUI';
 
 export const UIShowcase = () => {
   const [currentView, setCurrentView] = useState<'home' | 'login' | 'dashboard'>('home');

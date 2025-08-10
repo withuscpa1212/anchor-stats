@@ -1,9 +1,9 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { KPICardUI } from './KPICardUI';
-import { DateFilterUI } from './DateFilterUI';
-import { LevelsTableUI } from './LevelsTableUI';
+import { KPICardUI } from './kpiCardUI';
+import { DateFilterUI } from './dateFilterUI';
+import { LevelsTableUI } from './levelsTableUI';
 import { TrendingUp, Users, DollarSign } from 'lucide-react';
 
 // 샘플 KPI 데이터
