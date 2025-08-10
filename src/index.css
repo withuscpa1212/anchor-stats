@@ -8,35 +8,65 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Partner Dashboard Dark Theme */
+    --background: 220 27% 8%;
+    --foreground: 220 15% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 220 15% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 214 100% 70%;
+    --primary-foreground: 220 27% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 220 15% 85%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 10% 60%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 155 100% 77%;
+    --accent-foreground: 220 27% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 15% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 20% 18%;
+    --input: 220 20% 15%;
+    --ring: 214 100% 70%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Custom Partner Dashboard Colors */
+    --dashboard-bg: 220 27% 8%;
+    --dashboard-surface: 220 25% 10%;
+    --dashboard-surface-elevated: 220 25% 12%;
+    --dashboard-border: 220 20% 18%;
+    --dashboard-border-light: 220 15% 25%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 100% 70%) 0%, hsl(214 85% 65%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(155 100% 77%) 0%, hsl(155 85% 72%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(220 25% 11%) 0%, hsl(220 20% 8%) 100%);
+    --gradient-surface: linear-gradient(135deg, hsl(220 25% 12%) 0%, hsl(220 20% 10%) 100%);
+    
+    /* Shadows */
+    --shadow-card: 0 8px 32px -8px hsl(220 50% 4% / 0.4);
+    --shadow-elevated: 0 16px 48px -16px hsl(220 50% 4% / 0.6);
+    --shadow-glow-primary: 0 0 24px hsl(214 100% 70% / 0.3);
+    --shadow-glow-accent: 0 0 24px hsl(155 100% 77% / 0.3);
+    
+    /* Typography */
+    --font-heading: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", system-ui, sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", system-ui, sans-serif;
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
