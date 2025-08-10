@@ -133,3 +133,11 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* 임시 디버깅용: 숨은버튼 보이게 */
+.fixed.bottom-4.right-4.w-8.h-8.rounded-full {
+  opacity: 1 !important;          /* 원래 0 */
+  background: rgba(106,166,255,.35) !important;
+  border: 1px solid rgba(106,166,255,.8) !important;
+  border-radius: 999px !important;
+}
